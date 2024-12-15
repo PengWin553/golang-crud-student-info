@@ -1,2 +1,2 @@
 # golang-crud-student-info
-CRUD student info app with Go Fiber, React + TypeScript + TailwindCSS + MongoDb
+A beginner-friendly CRUD API project for managing student info, built with Go Fiber for the backend, React + TypeScript + TailwindCSS for the frontend, and MongoDB as the database.

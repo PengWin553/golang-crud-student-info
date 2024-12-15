@@ -1,0 +1,40 @@
+*=========================================================* GET ALL STUDENTS *=========================================================*
+URL: GET    http://localhost:4000/api/students
+
+*=========================================================* CREATE STUDENT *=========================================================*
+URL: POST    http://localhost:4000/api/students
+REQUEST BODY:
+    {
+        "firstName": "Peng",
+        "lastName": "Win",
+        "phoneNumber": "9876551334",
+        "email": "pengwinbody@gmail.com",
+        "address": "123 Main Street, Nowhere"
+    }
+
+*=========================================================* UPDATE STUDENT *=========================================================*
+URL: PATCH    http://localhost:4000/api/students/<id>
+REQUEST BODY:
+
+Sample 1:
+    {
+        "firstName": "Emily",
+        "lastName": "Rodriguez",
+        "phoneNumber": "5551234567",
+        "email": "emily.rodriguez@example.com",
+        "address": "456 Learning Lane, Studyville, ED 12345"
+    }
+
+Sample 2:
+    {
+        "firstName": "Emma"
+    }
+
+Sample 3:
+    {
+        "phoneNumber": "5559876543",
+        "email": "emma.new.email@example.com"
+    }
+
+*=========================================================* DELETE STUDENT *=========================================================*
+URL: DELETE    http://localhost:4000/api/students/<id>

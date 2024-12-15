@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+
+# .env files for storing environment variables
+.env
+
+# Compiled object files, static and dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# logs
+*.log
+
+# Folders that store compiled or temporary files
+_obj/
+_test/
+vendor/
+
+# Compiled binary files (Windows-specific extensions)
+*.exe
+*.out
+*.dll
+*.pdb
+*.idb
+
+# macOS specific files (only relevant on MacOS, but can be left in case of cross-platform collaboration)
+.DS_Store
+
+# Go specific files
+# Compiled binary for packages and commands (common Go build artifacts)
+bin/
+# Output of the Go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below if you are using dep)
+# vendor/
+
+# Windows-specific files
+Thumbs.db    # Windows thumbnail cache
+ehthumbs.db  # Windows Media Player database file
+desktop.ini  # Windows folder settings
